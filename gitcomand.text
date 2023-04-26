@@ -35,6 +35,7 @@ Note--> if we dont create the branch by own then git will always create the defa
 ---> if we want to check the list of the branches in the repository then use -->git branch or git branch --list
 ---> To create the new branch in the repo we have to use --> git branch branchName
     and the branch name should be type or feature of branch/about what the branch is.
+---> whenver we create a new branch we have to push it also else it will not show on remote github.
 
 --->To switch from one branch to another use --> git checkout branchName 
 ---> there is a combine command for switching the branch and creating the new branch at a time--> git checkout -b branchName
