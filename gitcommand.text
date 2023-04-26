@@ -1,0 +1,32 @@
+//some command to use in local command prompt---
+1. cd--> change directory 
+if we use cd and then use any path then the default path will changed to the current path that we provide...
+
+2. mkdir<space>Filename--> this creates the new folder
+3. if we want to use any directory just go on using cd<space>Filename...
+4. If we want to change from c to D drive then we just give Drivename: ---> D:
+5. If we want to go back one step using cmd---> cd\
+6. If we want to open any folder/file using cmd--> foldername>dir
+
+
+
+//Using GIT command to clone or commit the file to the repo...
+
+Step 1- first of all make a new repository in a github.
+
+Step 2- Then make a folder on desktop similar to the repo name.
+
+Step 3- Intialize the git using--> git init 
+
+step 4- we can check the status of the git using--> git status 
+
+step 5- Then we have to clone the repository from local using--> git remote add origin <path>
+
+step 6- we have to go through the staging are using--> git add <fileName>
+or we can add whole file to the staging area using--> git add<space> (.dot) 
+
+step 7- Then we have to give a commit message using ---> git commit -m "message"
+
+step 7- Final step of pushing the code to the remote is used by--> git push origin <branchName>
+
+Note--> if we dont create the branch by own then git will always create the default branch name using master.
