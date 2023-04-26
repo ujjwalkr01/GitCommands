@@ -32,7 +32,7 @@ step 8- Final step of pushing the code to the remote is used by--> git push orig
 Note--> if we dont create the branch by own then git will always create the default branch name using master.
 
 //Branching in Git...
----> if we want to check the list of the branches in the repository then use -->git branch
+---> if we want to check the list of the branches in the repository then use -->git branch or git branch --list
 ---> To create the new branch in the repo we have to use --> git branch branchName
     and the branch name should be type or feature of branch/about what the branch is.
 
